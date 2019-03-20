@@ -19,6 +19,10 @@
 h1{
     font-family: 'Srisakdi';
 }
+h5{
+    color: white;
+    font-family: 'Quicksand';
+}
 p{
     font-family: 'Quicksand';
     font-size: 16px;
@@ -27,57 +31,25 @@ p{
     position: relative;
     margin: 1em;
     text-shadow: 1px 1px #777777;
-
-}
-body{
-    background: url(../prism/prism.png);
-}
-footer{
-    background: #777777;
-    height: 2em;
-    position: absolute;
-    clear: both;
-    bottom: 0em;
-    width: 100%;
-
-}
-.columns{
-    height: 40em;
-    border-radius: 10px;
-    margin: 2em;
-    background: url(../fancy-cushion/fancy-cushion.png);
-    box-shadow: 0.4em 0.4em 0.5em black;
-    justify-content: center;
-}
-.header{
-    margin: 5% 0% 0% 5%;
-    color: #ffd700;
-}
-.nav{
-    background: #777777;
 }
 .nav-link{
     text-decoration: none;
     color: white;
 }
+.nav-link:hover{
+    color: #777777;
+}
+body{
+    background: url(../prism/prism.png);
+}
+
+.header{
+    color: #ffd700;
+    font-weight: bold;
+}
 hr{
     background: white;
 }
-img{
-    border-radius: 5px;
-    float: left;
-    margin-right: 1em;
-}
-.content{
-    margin: 1em;
-}
-.rounded.float-left{
-    margin: 1.5em 0em 0em 5em;
-    box-shadow: 0.4em 0.4em 0.3em #777777;
-}
-label{
-    color: white;
-}
 form{
-    margin: 1em;
+    color: white;
 }
